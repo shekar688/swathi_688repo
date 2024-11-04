@@ -1,0 +1,655 @@
+Last login: Thu Oct  3 01:44:47 2024 from 13.233.177.5
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 12
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 02:26 Bangalore
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ld
+drwxr-x--- 7 ubuntu ubuntu 4096 Oct  3 03:09 .
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ld *
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 02:26 Bangalore
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ mkdir hint
+ubuntu@ip-172-31-33-169:~$ touch h1 h2 h3 h4
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 02:26 Bangalore
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 01:36 hint
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cd ..
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ pwd
+/home
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ pwd
+/home
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ ls -ltr
+total 4
+drwxr-x--- 8 ubuntu ubuntu 4096 Oct  4 01:36 ubuntu
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ useradd babu
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ pwd
+/home
+ubuntu@ip-172-31-33-169:/home$ ls -ltr
+total 4
+drwxr-x--- 8 ubuntu ubuntu 4096 Oct  4 01:36 ubuntu
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ 
+ubuntu@ip-172-31-33-169:/home$ cd ubuntu/
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 02:26 Bangalore
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 01:36 hint
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cd hint/
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ pwd
+/home/ubuntu/hint
+ubuntu@ip-172-31-33-169:~/hint$ ls -ltr
+total 0
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ touch l1 l2 l3
+ubuntu@ip-172-31-33-169:~/hint$ mkdir some
+ubuntu@ip-172-31-33-169:~/hint$ touch 1 2 3 4
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ ls -ltr
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:41 l3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:41 l2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:41 l1
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 01:42 some
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 1
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ pwd
+/home/ubuntu/hint
+ubuntu@ip-172-31-33-169:~/hint$ cd ..
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 02:26 Bangalore
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:42 hint
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cd Bangalore/
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ pwd
+/home/ubuntu/Bangalore
+ubuntu@ip-172-31-33-169:~/Bangalore$ ls -ltr
+total 0
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ touch b1 b2 b3
+ubuntu@ip-172-31-33-169:~/Bangalore$ mkdir ban
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ ls-lt
+ls-lt: command not found
+ubuntu@ip-172-31-33-169:~/Bangalore$ ls -ltr
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:44 b3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:44 b2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:44 b1
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 01:44 ban
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ 
+ubuntu@ip-172-31-33-169:~/Bangalore$ cd ban/
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ pwd
+/home/ubuntu/Bangalore/ban
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ ls -l
+total 0
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ touch m1 m2
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ ls-lrt
+ls-lrt: command not found
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ ls -l
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 m1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 m2
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ pwd
+/home/ubuntu/Bangalore/ban
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ touch 7 8 99 55
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ ls -ltr
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 m2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 m1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 99
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 8
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 7
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 55
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ pwd
+/home/ubuntu/Bangalore/ban
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ cd ../..
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:42 hint
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cd Bangalore/ban/
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ pwd
+/home/ubuntu/Bangalore/ban
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ ls -l
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 55
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 7
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 8
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 99
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 m1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:46 m2
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ pwd
+/home/ubuntu/Bangalore/ban
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ 
+ubuntu@ip-172-31-33-169:~/Bangalore/ban$ cd ..
+ubuntu@ip-172-31-33-169:~/Bangalore$ pwd
+/home/ubuntu/Bangalore
+ubuntu@ip-172-31-33-169:~/Bangalore$ cd ..
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ 
+
+
+
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:42 hint
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cd babu/
+ubuntu@ip-172-31-33-169:~/babu$ ls -ltr
+total 0
+ubuntu@ip-172-31-33-169:~/babu$ 
+ubuntu@ip-172-31-33-169:~/babu$ 
+ubuntu@ip-172-31-33-169:~/babu$ cd ..
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cd hint/
+ubuntu@ip-172-31-33-169:~/hint$ ls -ltr
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:41 l3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:41 l2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:41 l1
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 01:42 some
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:42 1
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ 
+ubuntu@ip-172-31-33-169:~/hint$ cd ..
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  3 01:52 babu
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:42 hint
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ rmdir hint/
+rmdir: failed to remove 'hint/': Directory not empty
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ rmdir babu/
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 12
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:42 hint
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ rm hint/
+rm: cannot remove 'hint/': Is a directory
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ rm -rf hint/
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 8
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ mkdir kFD
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 12
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 02:07 kFD
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ mkdir AND
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -lrt
+total 16
+drwxrwxrwx 2 ubuntu ubuntu 4096 Oct  3 01:52 shekhar
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 01:55 file3
+-rwxrwxrwx 1 ubuntu ubuntu    0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h3
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  4 01:36 h1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  4 01:44 Bangalore
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 02:07 kFD
+drwxrwxr-x 2 ubuntu ubuntu 4096 Oct  4 02:07 AND
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ rm -rf Bangalore/ kFD/ AND/ shekhar/
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ rm -rf file3 f2 h3
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 0
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h1
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 0
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h1
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ touch q1 q2 a3 a4
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 0
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu 0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 01:36 h1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 02:13 q2
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 02:13 q1
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 02:13 a4
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  4 02:13 a3
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ date
+Fri Oct  4 02:13:29 UTC 2024
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat > newfile
+hello
+welcome
+Devops
+AWSubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 4
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a3
+-rw-rw-r-- 1 ubuntu ubuntu 24 Oct  4 02:15 newfile
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat newfile 
+hello
+welcome
+Devops
+AWSubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat >> h2
+hhlfhll
+uguyjjgs
+123456
+lghh
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 8
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 f1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a3
+-rw-rw-r-- 1 ubuntu ubuntu 24 Oct  4 02:15 newfile
+-rw-rw-r-- 1 ubuntu ubuntu 29 Oct  4 02:18 h2
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat >> f1
+1
+2
+3
+4
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 12
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a3
+-rw-rw-r-- 1 ubuntu ubuntu 24 Oct  4 02:15 newfile
+-rw-rw-r-- 1 ubuntu ubuntu 29 Oct  4 02:18 h2
+-rw-rw-r-- 1 ubuntu ubuntu  8 Oct  4 02:19 f1
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat >> f1
+44
+55
+66
+77
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ ls -t
+f1  h2  newfile  a3  a4  q1  q2  h1  h4  text  f3  file2  file4  file1
+ubuntu@ip-172-31-33-169:~$ ls -ltr
+total 12
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:54 file1
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file4
+-rwxrwxrwx 1 ubuntu ubuntu  0 Oct  3 01:55 file2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 f3
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  3 02:27 text
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 01:36 h1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q2
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 q1
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  4 02:13 a3
+-rw-rw-r-- 1 ubuntu ubuntu 24 Oct  4 02:15 newfile
+-rw-rw-r-- 1 ubuntu ubuntu 29 Oct  4 02:18 h2
+-rw-rw-r-- 1 ubuntu ubuntu 20 Oct  4 02:20 f1
+ubuntu@ip-172-31-33-169:~$ 
+ubuntu@ip-172-31-33-169:~$ cat f1
+1
+2
+3
+4
+44
+55
+66
+77
+ubuntu@ip-172-31-33-169:~$ 
